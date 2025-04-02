@@ -1,15 +1,17 @@
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Katibeh, Poppins } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/providers/theme-provider';
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const poppinsSans = Poppins({
+  variable: '--font-poppins-sans',
   subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
 });
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const katibehSerif = Katibeh({
+  variable: '--font-katibeh-serif',
   subsets: ['latin'],
+  weight: ['400']
 });
 
 export const metadata = {
@@ -20,9 +22,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en' suppressHydrationWarning={true}>
+    <html lang='en' suppressHydrationWarning={true} >
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${poppinsSans.variable} ${katibehSerif.variable} antialiased`}
       >
         <ThemeProvider
           attribute='class'
@@ -36,5 +38,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-// sf2vDaXC6ou19qTk;
-// mongodb+srv://minhajtapader0:<db_password>@cluster0.e6exaxu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
