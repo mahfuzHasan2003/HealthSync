@@ -36,3 +36,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+// sf2vDaXC6ou19qTk;
+// mongodb+srv://minhajtapader0:<db_password>@cluster0.e6exaxu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
