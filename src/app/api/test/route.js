@@ -20,3 +20,18 @@ export async function POST(req) {
     );
   }
 }
+
+export async function GET() {
+  try {
+    const collection = await getCollection('test');
+    const result = await collection.find().toArray();
+    return new Response(JSON.stringify({ data: result }), { status: 200 });
+  } catch (error) {
+    return new Response(
+      JSON.stringify({ error: 'Failed to fetch data from database' }),
+      {
+        status: 500,
+      }
+    );
+  }
+}
