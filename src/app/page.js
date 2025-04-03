@@ -1,11 +1,11 @@
-import HeroSlider from "@/components/custom-components/hero-section/hero-slider";
-import PopOutEffect from "@/components/custom-components/meet-specialists/pop-out-effect";
+import OurTeam from '@/components/custom-components/our-team/our-team';
+import OurBlog from '@/components/custom-components/our-blog/our-blog';
 
 export default function Home() {
   return (
-    <div>
-      {/* <HeroSlider /> */}
-      <PopOutEffect imageSrc="/slide-1.jpg" />
+    <div className=''>
+      <OurBlog />
+      <OurTeam />
     </div>
   );
 }
