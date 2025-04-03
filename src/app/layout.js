@@ -26,14 +26,14 @@ export default function RootLayout({ children }) {
       <body
         className={`${poppinsSans.variable} ${katibehSerif.variable} antialiased`}
       >
-        <ThemeProvider
+        {/* <ThemeProvider
           attribute='class'
           defaultTheme='system'
           enableSystem
           disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
+        > */}
+        {children}
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );
