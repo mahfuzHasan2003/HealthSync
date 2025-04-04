@@ -7,11 +7,23 @@ import {
   FaTwitter,
 } from 'react-icons/fa6';
 import { MdLocationCity, MdMail } from 'react-icons/md';
+import FreeConsultant from '../frre-consultant/FreeConsultant';
 
 const Footer = () => {
   return (
-    <div className='bg-[#ECF7FF]'>
-      <div className='flex justify-between gap-5 w-10/12 mx-auto py-20'>
+    <div
+      style={{
+        backgroundImage: "url('/footer-bg.png')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+      className='bg-[#ECF7FF] relative mt-56'
+    >
+      <div className=' absolute left-0 right-0 -top-36 '>
+        <FreeConsultant />
+      </div>
+      <div className='flex justify-between gap-5 w-10/12 mx-auto pb-20 pt-60'>
         <div className='w-1/4'>
           <h1>
             <img src='./logo.18acd6f1.svg' alt='' />
