@@ -1,0 +1,10 @@
+.test {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 80px;
+    background: #4fb8ff;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
