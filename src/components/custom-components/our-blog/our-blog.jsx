@@ -1,8 +1,8 @@
 import React from 'react';
-import ComponentHeader from '../ComponentHeader';
-import Article from './Article';
+import ComponentHeader from '../component-header';
+import Article from './article';
 
-const Articles = () => {
+const OurBlog = () => {
   return (
     <div className='w-10/12 mx-auto overflow-hidden pb-20'>
       <div>
@@ -35,4 +35,4 @@ const Articles = () => {
   );
 };
 
-export default Articles;
+export default OurBlog;
