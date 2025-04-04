@@ -7,7 +7,15 @@ import { FaHandsHelping } from 'react-icons/fa';
 
 const CTA = () => {
   return (
-    <div className='bg-[#13A3FF] my-20 py-12'>
+    <div
+      style={{
+        backgroundImage: "url('/cta-bg.png')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+      className='bg-[#13A3FF] my-20 py-12  '
+    >
       <div className='w-10/12 mx-auto'>
         <div className='w-full flex justify-between items-center '>
           <CtaSection
