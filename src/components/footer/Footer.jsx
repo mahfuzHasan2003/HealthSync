@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
       return (
         <footer className="bg-[#F8FAFC] text-gray-700 pt-16 pb-8 px-8 mt-24">
-          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Brand Info */}
             <div>
               <h2 className="text-xl font-semibold flex items-center space-x-2">
