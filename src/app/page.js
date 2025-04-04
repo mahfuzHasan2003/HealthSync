@@ -4,10 +4,9 @@ import { Button } from '@/components/ui/button';
 
 export default function Home() {
   return (
-    <div className=''>
+    <div>
       <p>Home Page</p>
-      {/* <Team /> */}
-      <Articles />
+      <Button> Click me </Button>
     </div>
   );
 }
