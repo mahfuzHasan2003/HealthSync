@@ -5,7 +5,15 @@ const FreeConsultant = () => {
     <div className='w-10/12 mx-auto'>
       {' '}
       <div className='flex flex-col w-full'>
-        <div className='w-full bg-[#1AA1F1] text-white p-8 md:p-16 rounded-3xl'>
+        <div
+          style={{
+            backgroundImage: "url('/cta-bg.png')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+          }}
+          className='w-full bg-[#1AA1F1] text-white p-8 md:p-16 rounded-3xl'
+        >
           <h1 className='text-4xl font-serif md:text-6xl font-bold mb-4'>
             Get A Free Consultation
           </h1>
