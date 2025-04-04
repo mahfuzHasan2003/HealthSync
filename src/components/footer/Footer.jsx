@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Brand Info */}
             <div>
-              <h2 className="text-xl font-semibold flex items-center space-x-2">
+              <h2 className="text-xl font-semibold flex items-center space-x-2"> 
                 <span className="text-blue-600 text-3xl">🩺</span>
                 <span>HelthSync</span>
               </h2>
