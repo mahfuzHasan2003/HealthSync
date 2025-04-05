@@ -6,6 +6,7 @@ import OurPortfolio from '@/components/custom-components/our-portfolio/OurPortfo
 import OurTeam from '@/components/custom-components/our-team/our-team';
 import HeroSlider from '@/components/custom-components/hero-section/hero-slider';
 import DepartmentalService from '@/components/custom-components/departmental-service/DepartmentalService';
+import Testimonial from '@/components/custom-components/testimonial/Testimonial';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <HeroSlider />
       <DepartmentalService />
       <OurPortfolio />
+      <Testimonial />
       <Available />
       <OurTeam />
       <CTA />
